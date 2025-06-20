@@ -1,0 +1,149 @@
+{
+  "typography": {
+    "fontFamilies": [
+      "Arial",
+      "Helvetica",
+      "Georgia",
+      "Times New Roman",
+      "Verdana",
+      "Trebuchet MS",
+      "system-ui",
+      "sans-serif",
+      "serif",
+      "Roboto",
+      "Open Sans",
+      "Lato",
+      "Montserrat"
+    ],
+    "minFontSize": 14,
+    "maxFontSize": 72,
+    "lineHeightRange": [1.2, 1.8],
+    "fontWeights": ["300", "400", "500", "600", "700", "800"],
+    "headingHierarchy": {
+      "h1": "32-48px",
+      "h2": "24-36px",
+      "h3": "20-28px",
+      "h4": "18-24px",
+      "h5": "16-20px",
+      "h6": "14-18px"
+    },
+    "bodyTextSize": "16-18px",
+    "letterSpacing": "normal to 0.05em"
+  },
+  "colors": {
+    "maxPrimaryColors": 3,
+    "maxSecondaryColors": 5,
+    "maxTotalColors": 8,
+    "contrastRatio": {
+      "normal": 4.5,
+      "large": 3.0
+    },
+    "recommendedPalette": {
+      "neutral": ["#000000", "#333333", "#666666", "#999999", "#cccccc", "#ffffff"],
+      "primary": ["#007bff", "#28a745", "#dc3545", "#ffc107", "#6f42c1"],
+      "semantic": {
+        "success": "#28a745",
+        "warning": "#ffc107",
+        "error": "#dc3545",
+        "info": "#17a2b8"
+      }
+    },
+    "backgroundColors": ["#ffffff", "#f8f9fa", "#e9ecef"],
+    "textColors": ["#000000", "#333333", "#666666"]
+  },
+  "spacing": {
+    "baseUnit": 8,
+    "scale": [4, 8, 12, 16, 24, 32, 48, 64, 96, 128],
+    "consistentSpacing": true,
+    "maxVariations": 8,
+    "margins": ["0", "8px", "16px", "24px", "32px"],
+    "padding": ["8px", "16px", "24px", "32px"]
+  },
+  "buttons": {
+    "minHeight": 44,
+    "minWidth": 88,
+    "maxWidth": 320,
+    "borderRadius": ["0px", "4px", "6px", "8px", "12px", "50%"],
+    "padding": {
+      "small": "8px 16px",
+      "medium": "12px 24px",
+      "large": "16px 32px"
+    },
+    "fontSize": ["14px", "16px", "18px"],
+    "fontWeight": ["400", "500", "600"],
+    "states": ["default", "hover", "active", "disabled", "focus"]
+  },
+  "layout": {
+    "maxWidth": 1200,
+    "minWidth": 320,
+    "responsive": true,
+    "breakpoints": {
+      "mobile": 768,
+      "tablet": 1024,
+      "desktop": 1200
+    },
+    "gridSystem": true,
+    "columns": [12, 16, 24],
+    "gutters": ["16px", "24px", "32px"]
+  },
+  "accessibility": {
+    "altText": {
+      "required": true,
+      "descriptive": true
+    },
+    "semanticHTML": {
+      "headings": true,
+      "landmarks": true,
+      "lists": true
+    },
+    "keyboardNavigation": {
+      "focusVisible": true,
+      "tabOrder": true,
+      "skipLinks": true
+    },
+    "colorContrast": {
+      "minimumRatio": 4.5,
+      "largeTextRatio": 3.0
+    },
+    "ariaLabels": true,
+    "formLabels": true
+  },
+  "performance": {
+    "imageOptimization": true,
+    "lazyLoading": true,
+    "minification": true,
+    "caching": true,
+    "loadTime": "< 3 seconds"
+  },
+  "usability": {
+    "navigation": {
+      "clear": true,
+      "consistent": true,
+      "breadcrumbs": true
+    },
+    "forms": {
+      "validation": true,
+      "errorMessages": true,
+      "placeholders": true
+    },
+    "feedback": {
+      "loadingStates": true,
+      "successMessages": true,
+      "errorHandling": true
+    }
+  },
+  "mobile": {
+    "touchTargets": {
+      "minSize": "44px",
+      "spacing": "8px"
+    },
+    "viewport": {
+      "responsive": true,
+      "zoomable": true
+    },
+    "gestures": {
+      "swipe": true,
+      "pinch": true
+    }
+  }
+}
