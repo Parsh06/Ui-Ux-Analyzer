@@ -17,6 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+      </head>
       <body>
         <ThemeProvider attribute="class" defaultTheme="light">
           {children}
@@ -25,4 +28,4 @@ export default function RootLayout({
       </body>
     </html>
   )
-}  
+}

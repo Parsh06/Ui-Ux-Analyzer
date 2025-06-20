@@ -5,7 +5,7 @@ import chrome from "@sparticuz/chromium"
 
 
 // Initialize Gemini AI with the correct API key
-const genAI = new GoogleGenerativeAI("AIzaSyC1SfO6Uo0hxFOrY_yG6CaQO4RcUMx9k3k")
+const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GENAI_API_KEY!)
 
 interface PerformanceInsights {
   loadTime: string;
